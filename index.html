@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BECCS</title>
+    <link rel="stylesheet" href="/style.css">  
+    <script src="/script.js"></script>
+  </head>  
+  <body>  
+    <div class="header"> 
+      <img class="image_1" src="https://cdn.glitch.com/84156c10-4fab-4415-a80a-d158b67f3873%2FBECCS-01.png?v=1572966480139" alt="BECCS Illustration"> 
+    </div>
+    <div class="content">
+      <div class="left-column">
+        <div class="intro-title-container">
+          <p class= "intro-title">What is BECCS?</p>
+        </div>
+        <p class= "information">
+          <span class="BECCS">BECCS</span> is typically envisioned as the cultivation of one type of crop, a monoculture, over a large
+          area <span class="red">(a carbon negative process)</span> and combusting this biomass in a power plant to produce
+          electricity. <br> <br> The <span class="red">CO2</span> from the exhaust stream is then diverted and stored, or sequestered, deep
+          underground in some sort of geologic formation. Thus, we have the removal of <span class="red">CO2</span> from the
+          atmosphere and environment by plants that are grown, which are then burned to make
+          electricity, and the CO2 produced from combustion is stored deep underground.
+        </p>
+        <p class="information">
+          Bio energy with carbon capture and storage is any process that integrates the following : 
+        </p>
+        <div class="number-content"> 
+          <p class="information">
+           <span class="numbers"> 1. </span> <br> Decarbonizing effects of biomass production
+          </p>
+          <p class="information">
+           <span class="numbers"> 2. </span> <br> Energy production from biomass
+          </p>
+          <p class="information">
+           <span class="numbers"> 3. </span> <br> Carbon capture and sequestration
+          </p>
+        </div>
+        <div class="popup" id="popupContainer" onclick="togglePopup()">
+          <div class="asterix cursor"></div>
+          <div class="popuptext">
+            <img class="inside" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fcorrectedasterix-01.png?v=1574220571883">
+            <span class="red">There are many shortcomings and engineering inefficiencies associated with this process.</span> <br> <br>
+      There’s the fact that we are growing plants to burn them in order to produce electricity, which
+      may sound strange to many people. <br> <br> That aside, we require A LOT of land, water, and energy for
+      plant cultivation. There is also a carbon cost to transporting this biomass to the site of power
+      generation––trucks require diesel, which combusts and produces <span class="red">CO2 </span> that is emitted to the
+      atmosphere. <br>Finally, there is energy required for separating <span class="red">CO2</span> from the plant exhaust stream.
+      Separation is always an energy-intensive process.
+          </div>
+        </div>
+        <div class="intro-title-container">
+          <p class= "intro-title">Our Process</p>
+        </div>
+          <div class= "information"> We have iterated on the     
+            <span class="redpopup red cursor" onclick="toggleSecondPopup()">commonly envisioned BECCS process</span> 
+            to propose an alternative that addresses these shortcomings. <br> <br> This process relies on agricultural and food waste, which
+            require less water, land, and energy intervention. We turn this biomass into charcoal, or biochar,
+            a carbon-dense material. We gasify this using the Reverse Boudouard reaction. We add CO2 to
+            the biochar at high temperature, enhancing the carbon negativity of this process, and produce
+            synthesis gas, which is composed of H2 and CO. CO is commonly thought of as a poison but is
+            actually a viable feedstock for a solid oxide fuel cell (SOFC). Thus, SOFCs can be used to
+            produce electricity and a generate a CO2-rich exhaust stream that requires far less energy
+            intervention before sequestration.
+            <img class="popupimage" id="infographic" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2FUPDATEDnegativeelementstothisprocess-01.png?v=1574262796824"/>
+        </div>
+        <div>
+        <p class="information envisioning cursor" onclick="toggleThirdPopup()">
+          Envisioning a better BECCS!
+        </p>
+        <img class="popupimage2" id="infographic2" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fpage4_popup_envissioningabeterbeccs-01.png?v=1575211618986"/>
+        </div>
+        <div class="arrow-container">
+          <img class="arrow" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fpage4%20arrow%20highlightedblue-01.png?v=1575209349611"/>
+        </div>
+      </div>
+      <div class="right-column">
+        <img class="left-cloud" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2F1leftcloud-01.png?v=1573615597579"/>
+        <img class="right-cloud" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2F1rightcloud-01.png?v=1573615615177"/>
+        <p class="number1">1.</p>
+        <img class="step-1" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fstep1-01.png?v=1574262675397"/>
+        <p class="number2">2.</p>
+        <img class="step-2" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2FStep2-01.png?v=1573661787888"/>
+        <p class="number3">3.</p>
+        <img class="step-3" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fstep3png-01.png?v=1574262517713"/>
+        <img class="bottom_cloud" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fpage4_cloud4-01.png?v=1575208987853"/>
+      </div>
+      <div class="bottom">
+        <div class="bottom-content"> 
+        <div class="ashcontainer">
+          <div class="ash cursor" onclick="toggleAshPopup()"></div>
+          <div class="ashPopup" id="ashPopuptext"> <h class="redheader"> What is pyrolysis? </h> <br> 
+          <p class="popuptext"> Pyrolysis is the process by which biomass is heated in the absence of oxygen to break down organic structures through a series of complex thermo-chemical pathways. It generates solid, liquid, and gaseous products, and the product distribution varoes with pyrolysis conditions. All three products are valuable and have various commerical applications. In this study, the solid produc, biochar, is of value.</p>
+          </div>
+        </div>
+        <div class="gas cursor" onclick="toggleGasPopup()"></div>
+          <img class="gasPopup" id="gasPopuptext" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fgaschamber-popup-01.png?v=1575409041294"/>
+          <div class="corn cursor" onclick="toggleCornPopup()"></div>
+          <div class="cornPopup" id="cornPopuptext">
+            <h class="redheader">Why is corn cob so reactive?</h> <br> <p class="corntext">
+            What differs between those feedstocks? <br> Ash Content
+            </p>
+            <br>
+            <ul class="corntext2">
+            <li>Ash remaining after gasification (unreacted material) is a good indicator of inorganic content of biochar</li>
+            <br>
+            <li>Inorganics (alkali and alkaline earth metals–Ca, Na, K) have been shown to catelyze the Reverse Boudouard reaction</li>
+            <br>
+            <li>Measured ash content as percentage of biochar sample remaining after gasification</li>
+            </ul>
+          </div>
+          <div class="squiggle cursor" onclick="toggleSquigglePopup()"></div>
+          <img class="squigglePopup" id="squigglePopuptext" src="https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2Fswirl-popup-01.png?v=1575411000138"/>
+          <div class="beaker cursor" onclick="toggleBeakerPopup()"></div>
+          <div class="beakerPopup" id="beakerPopuptext">
+            <h class="redheader">Performing Pyrolysis and Resultant Biochar</h> <br>
+            <p class="popuptext">
+              Pyrolized several bio-waste feedstocks (walnut shell, pistahio shell, pumpkin seed shell, corn cob, coconut shell) at three 
+              different temperatures: 400C, 450C, 500C. Measured mass yield increases with decreasing pyrolysis temperature. In a large scale
+              process, we want to maximize our yield, so this is an interesting result for us to consider.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
