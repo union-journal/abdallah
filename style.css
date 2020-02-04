@@ -22,6 +22,109 @@ body {
   src: url("assets/Lissain didone.ttf");
 }
 
+#whole::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgba(0,0,0,0);; /* or add it to the track */
+}
+
+#whole::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* for the info menu */
+.top {
+  position: fixed;
+  width:50%;
+  z-index: 999;
+}
+
+/* #question {
+  height: 25px;
+} */
+
+.info {
+  position: fixed;
+  font-size: 35px;
+  color: black;
+  z-index: 999;
+  top: 10px;
+  right: 10px;
+	padding:0px 0px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+  font-family: CooperStdBlack;
+}
+
+#tag-menu {
+	display:none;
+}
+
+
+#tag-menu:checked ~ div.drawer {
+ animation: slide-out 0.5s ease;
+ animation-fill-mode: forwards;
+}
+
+/* linear-gradient(to right, , rgba(255,0,0,0)); */
+.drawer {
+  background: #EDE6D2;
+	position:fixed;
+  top: 0;
+	right:-500px;
+	height:100%;
+	z-index:100;
+	width:500px;
+	animation: slide-in 0.5s ease;
+	animation-fill-mode: forwards;
+  margin-top: 0px;
+  /* eventually make scroll within a div */
+}
+
+#whole {
+  text-align: justify;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  padding-right: 10px;
+  color: #1B0D00;
+  font-family: CooperStdBlack;
+  overflow-y: auto;
+  height: 90%;
+}
+
+#bar_name {
+  font-size: 30px;
+}
+
+#bar_text {
+  font-size: 15px;
+}
+
+@keyframes slide-in {
+ from {right: 0px;}
+ to {right: -500px;}
+}
+
+@keyframes slide-out {
+ from {right: -500px;}
+ to {right: 0px;}
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgba(0,0,0,0);; /* or add it to the track */
+}
+
+/* Add a thumb */
+body::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+
 /* @font-face {
   font-family: "Vinegar-Regular";
   src: url("https://cdn.glitch.com/dfad58d5-286b-42cb-b0bf-b570ecab3185%2FVinegar-Regular.otf?v=1573313797038");
