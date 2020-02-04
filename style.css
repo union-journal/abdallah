@@ -506,7 +506,7 @@ body::-webkit-scrollbar-thumb {
 .gas {
   height: 250px;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 10%;
   top: 390px;
   background-image: url("assets/gas-prehighlight-01.png");
   background-size: 300px;
@@ -546,7 +546,7 @@ body::-webkit-scrollbar-thumb {
 .corn {
   height: 200px;
   position: absolute;
-  left: 500px;
+  left: 50%;
   top: 250px;
   background-image: url("assets/corn-pre-highlight-01.png");
   background-size: 100%;
@@ -607,7 +607,7 @@ body::-webkit-scrollbar-thumb {
 .squiggle {
   height: 250px;
   position: absolute;
-  left: 820px;
+  left: 75%;
   top: 350px;
   background-image: url("assets/SQUIGGLE-prehighlight-01.png");
   background-size: 100%;
@@ -645,7 +645,7 @@ body::-webkit-scrollbar-thumb {
 .beaker {
   height: 200px;
   position: absolute;
-  left: 1050px;
+  left: 77%;
   top: 80px;
   background-image: url("assets/beaker-pre-highlight-01.png");
   background-size: 240px;
