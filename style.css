@@ -210,6 +210,7 @@ body::-webkit-scrollbar-thumb {
 .asterix {
   display: block;
   position: relative;
+  top: -23%;
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
