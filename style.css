@@ -463,7 +463,7 @@ body {
   left: 50%;
   margin-left: -80px;
   background-color: white;
-  border: blue solid 2px;
+  border: #096AFF solid 2px;
   border-radius: 40px;
   margin-bottom: 25px;
   z-index: 5;
@@ -505,7 +505,7 @@ body {
 .squiggle {
   height: 250px;
   position: absolute;
-  left: 730px;
+  left: 820px;
   top: 350px;
   background-image: url("assets/SQUIGGLE-prehighlight-01.png");
   background-size: 100%;
@@ -543,7 +543,7 @@ body {
 .beaker {
   height: 200px;
   position: absolute;
-  left: 900px;
+  left: 1050px;
   top: 80px;
   background-image: url("assets/beaker-pre-highlight-01.png");
   background-size: 240px;
@@ -568,7 +568,7 @@ body {
   width: 430px;
   text-align: left;
   position: relative;
-  left: 50%;
+  left: 35%;
   margin-left: -80px;
   background-color: white;
   border: blue solid 2px;
