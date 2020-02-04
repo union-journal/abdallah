@@ -37,4 +37,3 @@ function toggleBeakerPopup() {
   var BeakerPopup = document.getElementById("beakerPopuptext")
   BeakerPopup.classList.toggle("show")
 }
-
