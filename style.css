@@ -238,7 +238,7 @@ body::-webkit-scrollbar-thumb {
 .popup {
   position: relative;
   display: inline-block;
-  height: 320px;
+  height: 500px;
   width: 100%;
   cursor: default;
 }
