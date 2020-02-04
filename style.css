@@ -547,7 +547,7 @@ body::-webkit-scrollbar-thumb {
 .corn {
   height: 200px;
   position: absolute;
-  left: 50%;
+  left: 30%;
   top: 250px;
   background-image: url("assets/corn-pre-highlight-01.png");
   background-size: 100%;
@@ -608,7 +608,7 @@ body::-webkit-scrollbar-thumb {
 .squiggle {
   height: 250px;
   position: absolute;
-  left: 75%;
+  left: 60%;
   top: 350px;
   background-image: url("assets/SQUIGGLE-prehighlight-01.png");
   background-size: 100%;
