@@ -19,7 +19,7 @@ body {
 
 @font-face {
   font-family: "Lissain-Didone";
-  src: url("assets/Lissain didone.ttf");
+  src: url("assets/Lissain.ttf");
 }
 
 #whole::-webkit-scrollbar {
