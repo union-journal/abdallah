@@ -292,7 +292,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   z-index: 1;
   margin-top: 40px;
-  bottom: -60%;
+  bottom: -80%;
   left: 30%;
   margin-left: -80px;
 
@@ -571,7 +571,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 25px;
   z-index: 5;
   padding: 50px;
-  top: -270px;
+  top: -350px;
 
 }
 
