@@ -292,7 +292,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   z-index: 1;
   margin-top: 40px;
-  bottom: -150%;
+  bottom: -50%;
   left: 30%;
   margin-left: -80px;
 
@@ -547,7 +547,7 @@ body::-webkit-scrollbar-thumb {
 .corn {
   height: 200px;
   position: absolute;
-  left: 30%;
+  left: 40%;
   top: 250px;
   background-image: url("assets/corn-pre-highlight-01.png");
   background-size: 100%;
@@ -563,7 +563,7 @@ body::-webkit-scrollbar-thumb {
   width: 430px;
   text-align: left;
   position: relative;
-  left: 50%;
+  left: 65%;
   margin-left: -80px;
   background-color: white;
   border: #096AFF solid 2px;
@@ -571,7 +571,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 25px;
   z-index: 5;
   padding: 50px;
-  top: 0px;
+  top: -270px;
 
 }
 
